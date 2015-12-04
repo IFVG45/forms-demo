@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<form action="https://formspree.io/vall0139@algonquinlive.com" method="post" >
+
+<div>
+  <label for="name">Name</label>
+   <input id="name" name="name" required>
+  </div>
+
+<div>
+  <label for="email">Email</label>
+  <input id="email" type="email" name="email" required placeholder="you@yours.com">
+</div>
+
+<div>
+  <label for="subject">subject</label>
+  <select id="subject" name="_subject">
+    <option> I'm looking for a freelancer</option>
+    <option> Let's get a coffee</option>
+    <option> You're awesome</option>
+  </select>
+</div>
+
+<fieldset>
+
+  <legend> how are you feeling?</legend>
+
+  <input id="happy" type="radio" name="feels">
+  <label for="happy">happy</label>
+
+  <input id="sad" type="radio" name="feels">
+  <label for="sad">sad</label>
+
+  <input id="tired" type="radio" name="feels">
+  <label for="tired">tired</label>
+
+  <input id="super" type="radio" name="feels">
+  <label for="super">Like a superhero!</label>
+
+</fieldset>
+
+<div>
+</label for="message">Message</label>
+<textarea id="message" name="message"></textarea>
+</div>
+
+<div>
+  <button type="submit">send!</button>
+</div>
+
+
+</form>
+
+</body>
+</html>
